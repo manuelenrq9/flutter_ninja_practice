@@ -14,16 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.orange[300],
       ),
       body: Center(
-        child: Text(
-          'Hola a todos como estan',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 1.2,
-            color: Colors.grey[700],
-            fontFamily: 'IndieFlower',
-          ),
-        ),
+        child: Image.asset('assets/2.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.orange[300],
